@@ -1,5 +1,12 @@
-body {
-    margin: 20px;
+body {    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 .avatar {
@@ -12,13 +19,10 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
-    background: #ddebf8;
-    color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
-}
-
-.border-blue {
-    border: 1px dotted blue;
+    background: #D8BBC5ff;
+    color: #597495ff;
+    border-bottom: 6px solid #974C56ff;
 }
     
